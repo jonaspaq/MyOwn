@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="https://txt-dynamic.static.1001fonts.net/txt/dHRmLjMyLjAwMDAwMC5WVk5ELjAAAAAA/sedgwick-ave-display.regular.png" type="image/gif" sizes="16x16"> 
+
   <!-- Main bootstrap Core files -->
   <link rel="stylesheet" href="{{ asset('dist/assets/vendors/bootstrap/dist/css/bootstrap.min.css') }}">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -17,14 +19,14 @@
 
   <!-- Top Navigation Bar start -->
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top w-100">
-    <a class="navbar-brand" href="#"><img src="//txt-dynamic.static.1001fonts.net/txt/dHRmLjMyLmZlZmJmYi5TbTl1WVhNZ1IzZGhjRzgsLjAA/blackchancery.regular.png" style="width: auto;" alt="Oops! Something is not right"></a>
+    <a class="navbar-brand" href="#"><img src="https://txt-dynamic.static.1001fonts.net/txt/dHRmLjI4LmZmZmZmZi5WVk5ESUMwZ1VtVmpiMjV1WldOMGIzSSwuMAA,/blackchancery.regular.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNavBarToggler" aria-controls="topNavBarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-angle-double-down"></i>
     </button>
     <div class="collapse navbar-collapse" id="topNavBarToggler">
       <ul class="navbar-nav mr-auto d-md-none d-lg-none">
         <li class="nav-item">
-          <a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link signOutBtn" href="#"> Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#"> Link </a>
@@ -51,7 +53,7 @@
   </nav> <!-- Top Navigation Bar end -->
 
   <!-- Side Navigation Bar start-->
-  <div class="sideDiv d-md-block d-lg-block d-none" onmouseleave="deToggle()">
+  <div class="sideDiv d-md-block d-lg-block d-none rounded-bottom" onmouseleave="deToggle()">
     <div class="container-fluid">
       <div class="row mt-3 rowSide">
         <div class="col-12">
@@ -59,7 +61,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid mt-3">
       <a href="#" class="text-white" id="hyperlink">
         <div class="row hyperlink rowSide">
           <div class="col-8 mt-3"> 
@@ -103,7 +105,7 @@
       <a href="#" class="text-white" id="hyperlink">
         <div class="row mt-4 hyperlink rowSide">
           <div class="col-8 mt-3">
-            <h6 class="fontRoboto">Communication</h6>
+            <h6 class="fontRoboto">Commu</h6>
           </div>
           <div class="col-4 mt-2">
             <i class="fas fa-american-sign-language-interpreting text-white" style="font-size:33px;"></i>
@@ -117,10 +119,12 @@
   <!-- Page Content start --> 
   <div class="container-fluid contentContainer">
   <div class="container">
-    <div class="row mt-3 mb-5">
+  <!-- Page Content start --> 
 
+
+    <div class="row mt-3 mb-5">
       <!-- Alumni Profile Details -->
-      <div class="col-md-4 py-3 mb-3" style="background:url('/img/div_bgs/abg.jpg');">
+      <div class="col-md-4 py-4 mb-3" style="background:url('/img/div_bgs/abg.jpg');">
         <div class="card border border-light">
           <img class="card-img-top mx-auto" src="/img/homepage_images/Girl.jpg" alt="Card image" style="width: 150px;">
           <div class="card-body">
@@ -132,7 +136,7 @@
       <!-- Alumni Profile Details END-->
 
       <!-- Alumni Map Location -->
-      <div class="col-md-8 alMapDiv">
+      <div class="col-md-8 pr-0">
         <!-- This is only a test map for visual purposes only no back end -->
         <div id="map" class="w-100 bg-dark" style="height: 400px;">
         </div>
@@ -155,34 +159,55 @@
 
     </div>
 
+
+    <div class="row"> <!-- Father Row -->
+    <div class="col-md-8"> <!-- Job archive/history separator -->
+
+
     <!-- JOB INFORMATION -->
     <div class="row mb-5">
-    <div class="col-md-8 border-bottom shadow-lg divInfoBg">
+    <div class="col-md-12 border-bottom shadow-lg divInfoBg">
       <div class="row p-3"> 
-        <h4 class="fontRoboto"><i class="fas fa-user-md"></i> Job Information </h4>
+        <h5 class="fontRoboto"><i class="fas fa-user-md"></i> Personal Information </h5>
       </div>
       <div class="row px-3">
         <div class="col-12 p-0">
-          <h6> Job Title:</h6>
+          <h6> Name:</h6>
         </div>
         <div class="col-12 p-0">
-          <h3 class="fontRoboto">Secretary of the CEO</h3>
-        </div>
-      </div>
-      <div class="row px-3">
-        <div class="col-12 p-0">
-          <h6> Salary:</h6>
-        </div>
-        <div class="col-12 p-0">
-          <h4 class="fontRoboto">15,000 - 20,000</h4>
+          <p class="fontRoboto">Romeoz X. Yapzor</p>
         </div>
       </div>
       <div class="row px-3">
         <div class="col-12 p-0">
-          <h6> Date Employed:</h6>
+          <h6> Batch Graduated:</h6>
         </div>
         <div class="col-12 p-0">
-          <h4 class="fontRoboto">February 31, 1973</h4>
+          <p class="fontRoboto"> March 2018 </p>
+        </div>
+      </div>
+      <div class="row px-3">
+        <div class="col-12 p-0">
+          <h6> Course Taken: </h6>
+        </div>
+        <div class="col-12 p-0">
+          <p class="fontRoboto">Bachelor in Information and Communication Tehcnology</p>
+        </div>
+      </div>
+      <div class="row px-3">
+        <div class="col-12 p-0">
+          <h6> ID Number:</h6>
+        </div>
+        <div class="col-12 p-0">
+          <p class="fontRoboto"> 20134497 </p>
+        </div>
+      </div>
+      <div class="row px-3">
+        <div class="col-12 p-0">
+          <h6> Date of Birth:</h6>
+        </div>
+        <div class="col-12 p-0">
+          <p class="fontRoboto"> 20134497 </p>
         </div>
       </div>
     </div>
@@ -191,16 +216,16 @@
 
     <!-- COMPANY INFORMATION -->
     <div class="row mb-5">
-    <div class="col-md-8 border-bottom shadow-lg divInfoBg">
+    <div class="col-md-12 border-bottom shadow-lg divInfoBg">
       <div class="row p-3"> 
-        <h4 class="fontRoboto"><i class="fas fa-building"></i> Company Information </h4>
+        <h5 class="fontRoboto"><i class="fas fa-building"></i> Company Information </h5>
       </div>
       <div class="row px-3">
         <div class="col-12 p-0">
           <h6> Company Name:</h6>
         </div>
         <div class="col-12 p-0">
-          <h3 class="fontRoboto">Chooks To Go</h3>
+          <p class="fontRoboto">Chooks To Go</p>
         </div>
       </div>
       <div class="row px-3">
@@ -208,7 +233,7 @@
           <h6> Country:</h6>
         </div>
         <div class="col-12 p-0">
-          <h4 class="fontRoboto">Transylvania Hong Kong</h4>
+          <p class="fontRoboto">Transylvania Hong Kong</p>
         </div>
       </div>
       <div class="row px-3">
@@ -216,7 +241,7 @@
           <h6> Address:</h6>
         </div>
         <div class="col-12 p-0">
-          <h4 class="fontRoboto">IT.Park Qualfon Building Telstra Pizza Resto Bar</h4>
+          <p class="fontRoboto">IT.Park Qualfon Building Telstra Pizza Resto Bar</p>
         </div>
       </div>
       <div class="row px-3">
@@ -233,16 +258,83 @@
         </div>
           <div class="col-12 p-0">
           <ul>
-          <li> Free Food </li>
-          <li> Break Time </li>
-          <li> Increased Salary </li>
+          <li class="fontRoboto"> Free Food </li>
+          <li class="fontRoboto"> Break Time </li>
+          <li class="fontRoboto"> Increased Salary </li>
           </ul>
+        </div>
+      </div>
+      <div class="row p-3"> 
+        <h5 class="fontRoboto"><i class="fas fa-building"></i> Job Information </h5>
+      </div>
+      <div class="row px-3">
+        <div class="col-12 p-0">
+          <h6> Job Title:</h6>
+        </div>
+        <div class="col-12 p-0">
+          <p class="fontRoboto">Secretary of the CEO</p>
+        </div>
+      </div>
+      <div class="row px-3">
+        <div class="col-12 p-0">
+          <h6> Salary:</h6>
+        </div>
+        <div class="col-12 p-0">
+          <p class="fontRoboto">15,000 - 20,000</p>
+        </div>
+      </div>
+      <div class="row px-3">
+        <div class="col-12 p-0">
+          <h6> Date Employed:</h6>
+        </div>
+        <div class="col-12 p-0">
+          <p class="fontRoboto">February 31, 1973</p>
         </div>
       </div>
     </div>
     </div>
     <!-- COMPANY INFORMATION END -->
 
+    </div><!-- Job archive/history separator end-->
+    
+
+    <div class="col-md-1">
+      <!-- This container should be empty, do not put anything here -->
+      <!-- Div separator only -->
+    </div>
+
+
+    <!-- Job archive/history container-->
+    <div class="col-md-3 mb-3 divInfoBg" style="height:300px;"> 
+      <div class="row mt-2">
+        <div class="col-md-12">
+          <h5 class="fontRoboto"><i class="fas fa-file-archive"></i> Job Archive </h5>
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col-md-12">
+          <ul class="list-unstyled">
+            <li> <img src="/img/job_archive/lexmark-logo.png" class="align-middle rounded-circle" width="20px"><a href="#" class="linkSize"> Lexmark (August 2018)</a></li>
+            <li> <img src="/img/job_archive/globe.jpg" class="rounded-circle" width="20px"><a href="#" class="linkSize"> Globe (January 2018)</a></li>
+            <li> <img src="/img/job_archive/beats.png" class="align-middle rounded-circle" width="20px"><a href="#" class="linkSize"> Beats (July 2018)</a></li>
+            <li> <img src="/img/job_archive/lexmark-logo.png" class="align-middle rounded-circle" width="20px"><a href="#" class="linkSize"> Lexmark (August 2018)</a></li>
+            <li> <img src="/img/job_archive/globe.jpg" class="rounded-circle" width="20px"><a href="#" class="linkSize"> Globe (January 2018)</a></li>
+            <li> <img src="/img/job_archive/beats.png" class="align-middle rounded-circle" width="20px"><a href="#" class="linkSize"> Beats (July 2018)</a></li>
+            
+            <li class="mt-2"><a href="#" class="linkSize">See more...</a> </li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- Job archive/history container END-->
+
+
+
+
+    </div> <!-- Father Row  End-->
+
+
+  <!-- Page Content END --> 
   </div><!-- container -->
   </div><!-- container-fluid contentContainer -->
   <!-- Page Content END --> 

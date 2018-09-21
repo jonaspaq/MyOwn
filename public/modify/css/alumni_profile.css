@@ -2,7 +2,7 @@
   Top Navigation Bar
 */
 .navbar{
-    background: linear-gradient(-90deg, #5A8E6B, #5A8E6B, #356A46);
+    background: linear-gradient(#6D6D71, #161619);
     z-index: 999.1;
     box-shadow: 0 0 3px 0;
 }
@@ -25,10 +25,10 @@
   Side Navigation Bar
 */
 .sideDiv{
-  background:#5A8E6B;
+  background:#39393F;
   position:fixed;
   width:210px;
-  height:100%;
+  height:45%;
   left:-140px;
   top:0;
   direction: right;
@@ -70,7 +70,12 @@
 }
 .divInfoBg{
   background:url("/img/div_bgs/sbg.jpg");
+  background-size: cover;
 }  
+
+.linkSize{
+  font-size:15px;
+}
 /* 
   MEDIA QUERIES 
 */
@@ -86,7 +91,5 @@
   .divInfoBg {
     background:url("/img/div_bgs/sbg.jpg");
     background-size: cover;
-  }
-  .alMapDiv{
   }
 }
