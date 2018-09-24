@@ -64,7 +64,7 @@
     <div class="container-fluid mt-3">
       <a href="#" class="text-white" id="hyperlink">
         <div class="row hyperlink rowSide">
-          <div class="col-8 mt-3"> 
+          <div class="col-8 mt-3 sideNavLink"> 
             <h6 class="fontRoboto">Home</h6>
           </div>
           <div class="col-4 mt-2">
@@ -74,7 +74,7 @@
       </a>
       <a href="#" class="text-white" id="hyperlink">
         <div class="row mt-4 hyperlink rowSide">
-          <div class="col-8 mt-3">
+          <div class="col-8 mt-3 sideNavLink">
             <h6 class="fontRoboto">Profile</h6>
           </div>
           <div class="col-4 mt-2">
@@ -84,7 +84,7 @@
       </a>
       <a class="text-white" data-toggle="collapse" href="#classDropdown" id="classCollapse" aria-expanded="false">
         <div class="row mt-4 hyperlink test rowSide">
-            <div class="col-8 mt-3">
+            <div class="col-8 mt-3 sideNavLink">
               <h6 class="fontRoboto">Class <i class="fas fa-caret-down"></i></h6>
             </div>
             <div class="col-4 mt-2">
@@ -104,7 +104,7 @@
       </div>
       <a href="#" class="text-white" id="hyperlink">
         <div class="row mt-4 hyperlink rowSide">
-          <div class="col-8 mt-3">
+          <div class="col-8 mt-3 sideNavLink">
             <h6 class="fontRoboto">Commu</h6>
           </div>
           <div class="col-4 mt-2">
@@ -160,7 +160,7 @@
     </div>
 
 
-    <div class="row"> <!-- Father Row -->
+    <div class="row" style="position: relative;"> <!-- Father Row -->
     <div class="col-md-8"> <!-- Job archive/history separator -->
 
 
@@ -305,8 +305,8 @@
 
 
     <!-- Job archive/history container-->
-    <div class="col-md-3 mb-3 divInfoBg" style="height:300px;"> 
-      <div class="row mt-2">
+    <div class="col-md-3 mb-3 divInfoBg d-block" style="position:absolute; right:0"> 
+      <div class="row mt-3">
         <div class="col-md-12">
           <h5 class="fontRoboto"><i class="fas fa-file-archive"></i> Job Archive </h5>
         </div>

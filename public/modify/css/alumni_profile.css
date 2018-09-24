@@ -28,7 +28,6 @@
   background:#39393F;
   position:fixed;
   width:210px;
-  height:45%;
   left:-140px;
   top:0;
   direction: right;
@@ -38,6 +37,10 @@
 }
 .sideDiv:hover{
   left:0px;
+}
+.sideDiv:not(:hover) .sideNavLink{
+  visibility: hidden;
+  transition: 0.5s ease-in-out; 
 }
 #hyperlink{
   text-decoration:none;
@@ -69,7 +72,7 @@
   font-weight: 300 !important;
 }
 .divInfoBg{
-  background:url("/img/div_bgs/sbg.jpg");
+  background:url("/img/div_bgs/divbg.jpg");
   background-size: cover;
 }  
 
@@ -89,7 +92,7 @@
     padding-right: 10px !important;
   }
   .divInfoBg {
-    background:url("/img/div_bgs/sbg.jpg");
+    background:url("/img/div_bgs/divbg.jpg");
     background-size: cover;
   }
 }
