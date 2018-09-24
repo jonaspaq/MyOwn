@@ -7,7 +7,9 @@
 
   <!-- Main bootstrap Core files -->
   <link rel="stylesheet" href="{{ asset('dist/assets/vendors/bootstrap/dist/css/bootstrap.min.css') }}">
+  <!-- FONT ROBOTO -->
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- FONTAWESOME -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <!-- Customized css file -->
   <link rel="stylesheet" type="text/css" href="{{ asset('modify/css/alumni_profile.css') }}">
@@ -29,13 +31,13 @@
           <a class="nav-link signOutBtn" href="#"> Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"> Link </a>
+          <a class="nav-link" href="#"> Profile </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#"> Disabled </a>
+          <a class="nav-link" href="#"> Jobs </a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>Class</a>
+        <li class="nav-item">
+          <a class="nav-link" href="https://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>Communicate</a>
           <div class="dropdown-menu" style="transition: 0.4s ease-in-out !important;" aria-labelledby="dropdown04">
             <a class="dropdown-item" href="#">Action</a>
             <a class="dropdown-item" href="#">Another action</a>
@@ -44,9 +46,17 @@
         </li>
       </ul>
       <hr>
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ml-auto mr-1">
+        <li class="nav-item dropdown active">
+          <a class="nav-link ownerLink" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="/img/homepage_images/Girl.jpg" class="rounded-circle" width="20px"></i> Jonas Gwapo <i class="fas fa-caret-down"></i> </a>
+          <div class="dropdown-menu dropdown-menu-left" style="left:0" aria-labelledby="dropdown03">
+              <a class="dropdown-item" href="/login"><i class="fas fa-bug"></i> Report Bugs </a>
+          </div>
+        </li>
+      </ul>
+      <ul class="navbar-nav" style="border-left:1px solid gray">
         <li class="nav-item active">
-          <a class="nav-link signOutBtn" href="/login"><i class="fas fa-walking"></i> Sign Out </a>
+          <a class="nav-link signOutBtn ml-2" href="/login"><i class="fas fa-walking"></i> Sign Out </a>
         </li>
       </ul>
       </div>
@@ -72,7 +82,7 @@
           </div>
         </div>
       </a>
-      <a href="#" class="text-white" id="hyperlink">
+      <a href="/alumni_profile" class="text-white" id="hyperlink">
         <div class="row mt-4 hyperlink rowSide">
           <div class="col-8 mt-3 sideNavLink">
             <h6 class="fontRoboto">Profile</h6>
@@ -82,16 +92,17 @@
           </div>
         </div>
       </a>
-      <a class="text-white" data-toggle="collapse" href="#classDropdown" id="classCollapse" aria-expanded="false">
+      <a class="text-white" href="/alumni_profile" id="hyperlink">
         <div class="row mt-4 hyperlink test rowSide">
             <div class="col-8 mt-3 sideNavLink">
-              <h6 class="fontRoboto">Class <i class="fas fa-caret-down"></i></h6>
+              <h6 class="fontRoboto">Jobs <!-- THIS IS NOT FOT ALUMNI, TO BE TRANSFERED <i class="fas fa-caret-down"></i>--> </h6>
             </div>
             <div class="col-4 mt-2">
-              <i class="fas fa-boxes text-white" style="font-size:33px;"></i>
+              <i class="fas fa-hand-holding-usd text-white" style="font-size:33px;"></i>
             </div>
         </div>
       </a>
+      <!-- THIS IS NOT FOR ALUMNI, TO BE TRANSFERED FOR STUDENT & TEACHER
       <div class="col-12 collapse" id="classDropdown">
         <div class="container-fluid">
           <ul class="list-unstyled text-white">
@@ -102,10 +113,11 @@
           </ul>
         </div>
       </div>
+      -->
       <a href="#" class="text-white" id="hyperlink">
-        <div class="row mt-4 hyperlink rowSide">
+        <div class="row mt-4 mb-2 hyperlink rowSide">
           <div class="col-8 mt-3 sideNavLink">
-            <h6 class="fontRoboto">Commu</h6>
+            <h6 class="fontRoboto">Communicate</h6>
           </div>
           <div class="col-4 mt-2">
             <i class="fas fa-american-sign-language-interpreting text-white" style="font-size:33px;"></i>
@@ -124,8 +136,8 @@
 
     <div class="row mt-3 mb-5">
       <!-- Alumni Profile Details -->
-      <div class="col-md-4 py-4 mb-3" style="background:url('/img/div_bgs/abg.jpg');">
-        <div class="card border border-light">
+      <div class="col-md-4 py-4 align-middle" style="background:url('/img/div_bgs/abg.jpg');">
+        <div class="card border border-light position-absolute">
           <img class="card-img-top mx-auto" src="/img/homepage_images/Girl.jpg" alt="Card image" style="width: 150px;">
           <div class="card-body">
           <h4 class="card-title fontRoboto">Romeo X. Yapzor</h4>
@@ -138,7 +150,7 @@
       <!-- Alumni Map Location -->
       <div class="col-md-8 pr-0">
         <!-- This is only a test map for visual purposes only no back end -->
-        <div id="map" class="w-100 bg-dark" style="height: 400px;">
+        <div id="map" class="w-100 bg-dark" style="height:100%;">
         </div>
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlyUWOZTrGwtkrOFAV6-ejOmll5VuhUbE&callback=initMap">
@@ -168,53 +180,47 @@
     <div class="row mb-5">
     <div class="col-md-12 border-bottom shadow-lg divInfoBg">
       <div class="row p-3"> 
-        <h5 class="fontRoboto"><i class="fas fa-user-md"></i> Personal Information </h5>
+        <h5 class="fontRoboto"><i class="fas fa-user-md"></i> Personal Information (Alumnus)</h5>
       </div>
-      <div class="row px-3">
-        <div class="col-12 p-0">
-          <h6> Name:</h6>
+      <div class="row px-3 mb-3">
+        <div class="col-sm-12 col-md-6 p-0">
+          <h6  class="d-inline"> Name:</h6> <p class="fontRoboto d-inline">Romeo X. Yapzor</p>
         </div>
-        <div class="col-12 p-0">
-          <p class="fontRoboto">Romeoz X. Yapzor</p>
-        </div>
-      </div>
-      <div class="row px-3">
-        <div class="col-12 p-0">
-          <h6> Batch Graduated:</h6>
-        </div>
-        <div class="col-12 p-0">
-          <p class="fontRoboto"> March 2018 </p>
+        <div class="col-sm-12 col-md-6 p-0">
+          <h6 class="d-inline"> ID Number:</h6> <p class="fontRoboto d-inline"> 20134497 </p>
         </div>
       </div>
-      <div class="row px-3">
-        <div class="col-12 p-0">
-          <h6> Course Taken: </h6>
+      <div class="row px-3 mb-3">
+        <div class="col-sm-12 col-md-6 p-0">
+          <h6 class="d-inline"> Course Taken: </h6> <p class="fontRoboto d-inline">Bachelor in Information and Communication Technology</p>
         </div>
-        <div class="col-12 p-0">
-          <p class="fontRoboto">Bachelor in Information and Communication Tehcnology</p>
+        <div class="col-sm-12 col-md-6 p-0">
+          <h6 class="d-inline"> Batch Graduated:</h6> <p class="fontRoboto d-inline"> March 2018 </p>
+        </div>
+      </div> 
+      <div class="row px-3 mb-3">
+        <div class="col-sm-12 col-md-6 p-0">
+          <h6 class="d-inline"> Email:</h6> <p class="fontRoboto d-inline"> jonasgwapo@gmail.com </p>
+        </div>
+        <div class="col-sm-12 col-md-6 p-0">
+          <h6 class="d-inline"> Phone Number:</h6> <p class="fontRoboto d-inline"> 0901001010 </p>
         </div>
       </div>
-      <div class="row px-3">
-        <div class="col-12 p-0">
-          <h6> ID Number:</h6>
+
+      <div class="row px-3 mb-3">
+        <div class="col-sm-12 col-md-6 p-0">
+          <h6 class="d-inline"> Date of Birth:</h6> <p class="fontRoboto d-inline"> 20134497 </p>
         </div>
-        <div class="col-12 p-0">
-          <p class="fontRoboto"> 20134497 </p>
-        </div>
-      </div>
-      <div class="row px-3">
-        <div class="col-12 p-0">
-          <h6> Date of Birth:</h6>
-        </div>
-        <div class="col-12 p-0">
-          <p class="fontRoboto"> 20134497 </p>
+        <div class="col-sm-12 col-md-6 p-0">
+          <h6 class="d-inline"> Gender:</h6> <p class="fontRoboto d-inline"> Not Specified </p>
         </div>
       </div>
     </div>
     </div>
     <!-- JOB INFORMATION END-->
 
-    <!-- COMPANY INFORMATION -->
+
+    <!-- COMPANY INFORMATION ->
     <div class="row mb-5">
     <div class="col-md-12 border-bottom shadow-lg divInfoBg">
       <div class="row p-3"> 
@@ -230,10 +236,10 @@
       </div>
       <div class="row px-3">
         <div class="col-12 p-0">
-          <h6> Country:</h6>
+          <h6> Industry:</h6>
         </div>
         <div class="col-12 p-0">
-          <p class="fontRoboto">Transylvania Hong Kong</p>
+          <p class="fontRoboto">Marketing</p>
         </div>
       </div>
       <div class="row px-3">
@@ -305,10 +311,10 @@
 
 
     <!-- Job archive/history container-->
-    <div class="col-md-3 mb-3 divInfoBg d-block" style="position:absolute; right:0"> 
+    <div class="col-md-3 mb-3 divInfoBg d-block archiveContainer"> 
       <div class="row mt-3">
         <div class="col-md-12">
-          <h5 class="fontRoboto"><i class="fas fa-file-archive"></i> Job Archive </h5>
+          <h5 class="fontRoboto"><i class="fas fa-file-archive"></i> Job Archive/History </h5>
         </div>
       </div>
 

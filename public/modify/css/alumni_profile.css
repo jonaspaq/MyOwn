@@ -6,6 +6,12 @@
     z-index: 999.1;
     box-shadow: 0 0 3px 0;
 }
+.ownerLink, .ownerLink:focus{
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
 .signOutBtn:hover{
   animation: bellshake .5s cubic-bezier(.36,.07,.19,.97) both;
   backface-visibility: hidden;
@@ -76,6 +82,11 @@
   background-size: cover;
 }  
 
+.archiveContainer{
+  position:absolute; 
+  right:0;
+}
+
 .linkSize{
   font-size:15px;
 }
@@ -94,5 +105,9 @@
   .divInfoBg {
     background:url("/img/div_bgs/divbg.jpg");
     background-size: cover;
+  }
+
+  .archiveContainer{
+  position:relative; 
   }
 }
