@@ -28,9 +28,12 @@ Route::get('/alumnus', function () {
     return view('users.alumni.index');
 });
 
-
 Route::get('/alumni_profile', function () {
     return view('users.alumni.profile');
+});
+
+Route::get('/jobs_history', function () {
+    return view('users.alumni.jobs');
 });
 
 Route::get('/empty', function () {
