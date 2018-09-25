@@ -12,7 +12,7 @@
   <!-- FONTAWESOME -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <!-- Customized css file -->
-  <link rel="stylesheet" type="text/css" href="{{ asset('modify/css/alumni_profile.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ asset('modify/css/alumni/alumni_profile.css') }}">
   <!-- Title here -->
   <title>Jobs | Reconnector</title>
 </head>
@@ -32,9 +32,9 @@
     <div class="row mb-5 pb-4" style="background:url('/img/div_bgs/abg.jpg');">
       <!-- Job Card Details -->
       <div class="row w-100 p-0 m-0"><!-- FIRST ROW -->
-      <div class="col-md-4 py-4" >
-        <div class="card my-auto">
-          <img class="card-img-top mx-auto" src="/img/job_archive/globe.jpg" alt="Card image" style="width: 150px;">
+      <div class="col-md-4 py-4 pr-0">
+        <div class="card">
+          <img class="card-img-top mx-auto" src="/img/job_archive/globe.jpg" alt="Card image" style="min-width: 150px; max-width: 150px;">
           <div class="card-body">
           <h4 class="card-title">Globe Telecom</h4>
           <p class="card-text">Location: <em> IT.Park Qualfon Building Telstra Pizza Resto Bar </em></p>
@@ -43,7 +43,7 @@
       </div>
       <!-- Job Card Details End -->
       
-      <div class="col-md-8 py-4">
+      <div class="col-md-8 py-4 pr-0">
         <!-- Map Location -->
       <div class="col-12" style="height:100%;">
         <!-- This is only a test map for visual purposes only no back end -->
@@ -77,28 +77,28 @@
         <h5 class="fontRoboto"><i class="fas fa-building"></i> Company Information </h5>
         </div>
       
-        <div class="col-md-6">
+        <div class="col-md-12">
           <h6> Company Name:</h6> <p class="fontRoboto">Globe Telecom</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
           <h6> Industry:</h6> <p class="fontRoboto">Marketing</p>
         </div>
         <div class="col-12">
           <h6> Address:</h6>
         </div>
-        <div class="col-6">
+        <div class="col-12">
           <p class="fontRoboto">IT.Park Qualfon Building Telstra Pizza Resto Bar</p>
         </div>
         <div class="col-12">
           <h6> Description:</h6>
         </div>
-        <div class="col-6">
-          <p class="fontRoboto">This company is full of workers</p>
+        <div class="col-12">
+          <p class="fontRoboto">This company is full of workers. This company started in 1982 and got bankrupt after 48 years and then that's what happened. But now we are the best company in colon.</p>
         </div>
         <div class="col-12">
           <h6> Services Offered:</h6>
         </div>
-          <div class="col-6">
+          <div class="col-12">
           <ul>
           <li class="fontRoboto"> Free Food </li>
           <li class="fontRoboto"> Break Time </li>
@@ -112,27 +112,17 @@
           <h5 class="fontRoboto"><i class="fas fa-building"></i> Job Information </h5>
         </div>
           <div class="col-12">
-            <h6> Job Title:</h6>
+            <h6> Job Title:</h6> <p class="fontRoboto">Secretary of the CEO</p>
           </div>
           <div class="col-12">
-            <p class="fontRoboto">Secretary of the CEO</p>
-          </div>
-        <div class="row px-3">
-          <div class="col-12">
-            <h6> Salary:</h6>
+            <h6> Job Description:</h6> <p class="fontRoboto">I keep the files of our boss. I call our boss when there are meetings.</p>
           </div>
           <div class="col-12">
-            <p class="fontRoboto">15,000 - 20,000</p>
-          </div>
-        </div>
-        <div class="row px-3">
-          <div class="col-12">
-            <h6> Date Employed:</h6>
+            <h6> Salary:</h6> <p class="fontRoboto">15,000 - 20,000</p>
           </div>
           <div class="col-12">
-            <p class="fontRoboto">February 31, 1973</p>
+            <h6> Date Employed:</h6> <p class="fontRoboto">February 31, 1973</p>
           </div>
-        </div>
         <!-- JOB INFORMATION END -->
     </div>
       <!-- COMPANY INFORMATION END -->

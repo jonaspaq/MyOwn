@@ -12,7 +12,7 @@
   <!-- FONTAWESOME -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <!-- Customized css file -->
-  <link rel="stylesheet" type="text/css" href="{{ asset('modify/css/alumni_profile.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ asset('modify/css/alumni/alumni_profile.css') }}">
   <!-- Profile Name here -->
   <title>Alumni Profile | Reconnector</title>
 </head>
@@ -31,7 +31,7 @@
 
     <div class="row mt-3 mb-5">
       <!-- Alumni Profile Details -->
-      <div class="col-md-4 py-4" style="background:url('/img/div_bgs/abg.jpg');">
+      <div class="col-sm-2 col-md-4 py-4" style="background:url('/img/div_bgs/abg.jpg');">
         <div class="card border border-light position-absolute align-middle">
           <img class="card-img-top mx-auto" src="/img/homepage_images/Girl.jpg" alt="Card image" style="width: 150px;">
           <div class="card-body">

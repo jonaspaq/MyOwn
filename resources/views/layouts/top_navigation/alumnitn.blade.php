@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse" id="topNavBarToggler">
       <ul class="navbar-nav mr-auto d-md-none d-lg-none">
         <li class="nav-item">
-          <a class="nav-link signOutBtn" href="#"> Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/home_nf"> Home </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/alumni_profile"> Profile </a>

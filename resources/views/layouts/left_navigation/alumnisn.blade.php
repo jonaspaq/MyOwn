@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="container-fluid mt-3">
-      <a href="#" class="text-white" id="hyperlink">
+      <a href="home_nf" class="text-white" id="hyperlink">
         <div class="row hyperlink rowSide">
           <div class="col-8 mt-3 sideNavLink"> 
             <h6 class="fontRoboto">Home</h6>
