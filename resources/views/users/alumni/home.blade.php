@@ -8,13 +8,13 @@
   <!-- Main bootstrap Core files -->
   <link rel="stylesheet" href="{{ asset('dist/assets/vendors/bootstrap/dist/css/bootstrap.min.css') }}">
   <!-- FONT ROBOTO -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
   <!-- FONTAWESOME -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <!-- Customized css file -->
   <link rel="stylesheet" type="text/css" href="{{ asset('modify/css/alumni/home_nf.css') }}">
   <!-- Title here -->
-  <title>Jobs | Reconnector</title>
+  <title>Home | Reconnector</title>
 </head>
 
   
@@ -34,7 +34,7 @@
 
   <div class="row"><!-- School Ann Header -->
     <div class="col-8 col-md-5 py-2 rounded-top" style="background-image: linear-gradient(#32C275, #1CBB66)">
-      <p class="m-auto text-white fontRoboto"> Latest School Announcement </p>
+      <p class="m-auto text-white"> Latest School Announcement </p>
     </div>
   </div>  
   <div class="row">
@@ -57,7 +57,7 @@
 
     <div class="row">
       <div class="col-12 col-md-12 mt-4">
-      <p class="fontRoboto"> No classes tomorrow. Due to heavy rainfall. Always be alert and avoid going outside your house to avoid injuries. </p>
+      <p> No classes tomorrow. Due to heavy rainfall. Always be alert and avoid going outside your house to avoid injuries. </p>
       </div>
     </div>
 
@@ -68,7 +68,7 @@
 
   <div class="row mt-5"><!-- Alumni Job Header -->
     <div class="col-8 col-md-5 py-2 rounded-top" style="background-image: linear-gradient(#1C72BB, #0A5492)">
-      <p class="m-auto text-white fontRoboto"> Latest Alumni Job Post </p>
+      <p class="m-auto text-white"> Latest Alumni Job Post </p>
     </div>
   </div>  
   <div class="row">
@@ -91,13 +91,13 @@
 
     <div class="row">
       <div class="col-12 col-md-12 mt-4">
-      <p class="fontRoboto m-0"> Company: Kwek-kwek Websites </p>
-      <p class="fontRoboto m-0"> Location: Fuente Colon Mandaue City </p>
-      <p class="fontRoboto m-0"> Job Title: Front-end Developer </p>
-      <p class="fontRoboto m-0"> Job Description: Just Code and Code </p>
-      <p class="fontRoboto m-0"> Salary Range: 90,000 - 500,000 </p>
-      <p class="fontRoboto m-0"> Contact: 0922511511 </p>
-      <p class="fontRoboto m-0"> Email: test@gmail.mail.com </p>
+      <p class="m-0"> Company: Kwek-kwek Websites </p>
+      <p class="m-0"> Location: Fuente Colon Mandaue City </p>
+      <p class="m-0"> Job Title: Front-end Developer </p>
+      <p class="m-0"> Job Description: Just Code and Code </p>
+      <p class="m-0"> Salary Range: 90,000 - 500,000 </p>
+      <p class="m-0"> Contact: 0922511511 </p>
+      <p class="m-0"> Email: test@gmail.mail.com </p>
 
       <img src="/img/homepage_images/Pic5.jpg" width="150px">
       </div>
@@ -109,8 +109,11 @@
 
 
   <div class="row mt-5"><!-- Recent Posts Header -->
-    <div class="col-8 col-md-5 py-2 rounded-top" style="background-image: linear-gradient(90deg, #1CBB66, #0A5492)">
-      <p class="m-auto text-white fontRoboto"> Recent Posts </p>
+    <div class="col-4 col-md-4 py-2 rounded-top" style="background-image: linear-gradient(90deg, #1CBB66, #0A5492)" onmouseover = "this.style.cursor = 'pointer'">
+      <p class="m-auto text-white d-inline"> Recent Announcements </p> <i class="fas fa-arrow-down text-white"></i>
+    </div>
+    <div class="col-4 col-md-4 ml-2 py-2 rounded-top" style="background-image: linear-gradient(90deg, #0A5492, #1CBB66)" onmouseover = "this.style.cursor = 'pointer'">
+      <p class="m-auto text-white"> Recent Job Posts </p>
     </div>
   </div>  
   <div class="row">
@@ -133,7 +136,7 @@
 
     <div class="row">
       <div class="col-12 col-md-12 mt-4">
-      <p class="fontRoboto"> No classes tomorrow. Due to heavy rainfall. Always be alert and avoid going outside your house to avoid injuries. </p>
+      <p> No classes tomorrow. Due to heavy rainfall. Always be alert and avoid going outside your house to avoid injuries. </p>
       </div>
     </div>
 
@@ -155,13 +158,13 @@
 
     <div class="row">
       <div class="col-12 col-md-12 mt-4">
-      <p class="fontRoboto m-0"> Company: Kwek-kwek Websites </p>
-      <p class="fontRoboto m-0"> Location: Fuente Colon, Mandaue City </p>
-      <p class="fontRoboto m-0"> Job Title: Front-end Developer </p>
-      <p class="fontRoboto m-0"> Job Description: Just Code and Code </p>
-      <p class="fontRoboto m-0"> Salary Range: 90,000 - 500,000 </p>
-      <p class="fontRoboto m-0"> Contact: 0922511511 </p>
-      <p class="fontRoboto m-0"> Email: test@gmail.mail.com </p>
+      <p class="m-0"> Company: Kwek-kwek Websites </p>
+      <p class="m-0"> Location: Fuente Colon, Mandaue City </p>
+      <p class="m-0"> Job Title: Front-end Developer </p>
+      <p class="m-0"> Job Description: Just Code and Code </p>
+      <p class="m-0"> Salary Range: 90,000 - 500,000 </p>
+      <p class="m-0"> Contact: 0922511511 </p>
+      <p class="m-0"> Email: test@gmail.mail.com </p>
 
       <img src="/img/homepage_images/Pic5.jpg" width="150px">
       </div>
@@ -185,7 +188,7 @@
 
     <div class="row">
       <div class="col-12 col-md-12 mt-4">
-      <p class="fontRoboto"> No classes tomorrow. Due to heavy rainfall. Always be alert and avoid going outside your house to avoid injuries. </p>
+      <p> No classes tomorrow. Due to heavy rainfall. Always be alert and avoid going outside your house to avoid injuries. </p>
       </div>
     </div>
 

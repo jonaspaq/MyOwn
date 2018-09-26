@@ -75,7 +75,7 @@
 }
 .fontRoboto{
   font-family: 'Roboto', sans-serif !important;
-  font-weight: 300px !important;
+  font-weight: 300 !important;
 }
 .divInfoBg{
   background:url("/img/div_bgs/divbg.jpg");

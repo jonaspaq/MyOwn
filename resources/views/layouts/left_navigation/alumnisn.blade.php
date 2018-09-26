@@ -1,15 +1,9 @@
 
 
 <!-- Side Navigation Bar start-->
-  <div class="sideDiv d-md-block d-lg-block d-none rounded-bottom" onmouseleave="deToggle()">
-    <div class="container-fluid">
-      <div class="row mt-3 rowSide">
-        <div class="col-12">
-          <h3 class="text-white fontRoboto"></i></h3>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid mt-3">
+  <div class="sideDiv d-md-block d-lg-block d-none rounded-bottom pt-3" onmouseleave="deToggle()">
+
+    <div class="container-fluid mt-5">
       <a href="home_nf" class="text-white" id="hyperlink">
         <div class="row hyperlink rowSide">
           <div class="col-8 mt-3 sideNavLink"> 
