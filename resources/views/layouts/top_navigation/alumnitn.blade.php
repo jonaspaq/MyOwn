@@ -2,7 +2,9 @@
 
 <!-- Top Navigation Bar start -->
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top w-100">
-    <a class="navbar-brand" href="#"><img src="https://txt-dynamic.static.1001fonts.net/txt/dHRmLjI4LmZmZmZmZi5WVk5ESUMwZ1VtVmpiMjV1WldOMGIzSSwuMAA,/blackchancery.regular.png"></a>
+    <a class="navbar-brand" href="/home_nf">
+      <img src="https://txt-dynamic.static.1001fonts.net/txt/dHRmLjI4LmZmZmZmZi5WVk5ESUMwZ1VtVmpiMjV1WldOMGIzSSwuMAA,/blackchancery.regular.png">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNavBarToggler" aria-controls="topNavBarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-angle-double-down"></i>
     </button>
@@ -18,16 +20,11 @@
           <a class="nav-link" href="/jobs_history"> Jobs </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>Communicate</a>
-          <div class="dropdown-menu" style="transition: 0.4s ease-in-out !important;" aria-labelledby="dropdown04">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+          <a class="nav-link" href="#"></i>Communicate</a>
         </li>
       </ul>
       <hr>
-      <ul class="navbar-nav ml-auto mr-1">
+      <ul class="navbar-nav mr-1">
         <li class="nav-item dropdown active">
           <a class="nav-link ownerLink" id="ownerLinkDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="/img/homepage_images/Girl.jpg" class="rounded-circle" width="20px"> Jonas Gwapo <i class="fas fa-caret-down"></i> </a>
           <div class="dropdown-menu dropdown-menu-left" style="left:0" aria-labelledby="ownerLinkDropdown">

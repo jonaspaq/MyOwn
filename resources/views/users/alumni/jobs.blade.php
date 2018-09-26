@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="https://txt-dynamic.static.1001fonts.net/txt/dHRmLjMyLjAwMDAwMC5WVk5ELjAAAAAA/sedgwick-ave-display.regular.png" type="image/gif" sizes="16x16"> 
+  <link rel="icon" href="/img/studrec_logo/Logo.png" type="image/gif" sizes="16x16"> 
 
   <!-- Main bootstrap Core files -->
   <link rel="stylesheet" href="{{ asset('dist/assets/vendors/bootstrap/dist/css/bootstrap.min.css') }}">
@@ -32,7 +32,7 @@
     <div class="row mb-5 pb-4" style="background:url('/img/div_bgs/abg.jpg');box-shadow:2px 0px 10px;">
       <!-- Job Card Details -->
       <div class="row w-100 p-0 m-0"><!-- FIRST ROW -->
-      <div class="col-md-4 py-4 pr-0">
+      <div class="col-md-4 py-4">
         <div class="card">
           <img class="card-img-top mx-auto" src="/img/job_archive/globe.jpg" alt="Card image" style="min-width: 150px; max-width: 150px;">
           <div class="card-body">
@@ -106,7 +106,7 @@
           </ul>
         </div>
     </div>
-    <div class="col-md-5 ml-2 p-2 mb-2 mr-auto" style="background-color: rgba(237, 237, 237, 0.6); box-shadow: 2px 3px 8px;">
+    <div class="col-md-5 p-2 mb-2 mr-auto" style="background-color: rgba(237, 237, 237, 0.6); box-shadow: 2px 3px 8px;">
       <!-- JOB INFORMATION -->
         <div class="col-12"> 
           <h5 class="fontRoboto"><i class="fas fa-building"></i> Job Information </h5>

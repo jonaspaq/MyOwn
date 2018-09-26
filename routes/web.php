@@ -28,6 +28,10 @@ Route::get('/alumnus', function () {
     return view('users.alumni.index');
 });
 
+Route::get('/WelcomeHome', function () {
+    return view('newhome');
+});
+
 Route::get('/home_nf', function () {
     return view('users.alumni.home');
 });
