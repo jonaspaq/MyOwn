@@ -29,7 +29,7 @@
   <!-- Page Content start --> 
 
 
-    <div class="row mt-3 mb-5">
+    <div class="row mt-3 mb-5" style="box-shadow:0 0 10px;">
       <!-- Alumni Profile Details -->
       <div class="col-sm-2 col-md-4 py-4" style="background:url('/img/div_bgs/abg.jpg');">
         <div class="card border border-light position-absolute align-middle">
@@ -71,9 +71,9 @@
     <div class="col-md-8"> <!-- Job archive/history separator -->
 
 
-    <!-- JOB INFORMATION -->
+    <!-- PERSONAL INFORMATION -->
     <div class="row mb-5">
-    <div class="col-md-12 border-bottom shadow-lg divInfoBg">
+    <div class="col-md-12 divInfoBg" style="box-shadow:0 0 4px;">
       <div class="row p-3"> 
         <h5 class="fontRoboto"><i class="fas fa-user-md"></i> Personal Information (Alumnus)</h5>
       </div>
@@ -206,7 +206,7 @@
 
 
     <!-- Job archive/history container-->
-    <div class="col-md-3 mb-3 divInfoBg d-block archiveContainer"> 
+    <div class="col-md-3 mb-3 divInfoBg d-block archiveContainer" style="box-shadow:0 0 4px;"> 
       <div class="row mt-3">
         <div class="col-md-12">
           <h5 class="fontRoboto"><i class="fas fa-file-archive"></i> Job Archive/History </h5>
@@ -223,7 +223,7 @@
             <li> <img src="/img/job_archive/globe.jpg" class="rounded-circle" width="20px"><a href="#" class="linkSize"> Globe (January 2018)</a></li>
             <li> <img src="/img/job_archive/beats.png" class="align-middle rounded-circle" width="20px"><a href="#" class="linkSize"> Beats (July 2018)</a></li>
             
-            <li class="mt-2"><a href="#" class="linkSize">See more...</a> </li>
+            <li class="mt-2"><a href="/jobs_history" class="linkSize">See more...</a> </li>
           </ul>
         </div>
       </div>

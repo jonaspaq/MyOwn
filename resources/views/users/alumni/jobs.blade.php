@@ -29,7 +29,7 @@
   <!-- Page Content start --> 
 
 
-    <div class="row mb-5 pb-4" style="background:url('/img/div_bgs/abg.jpg');">
+    <div class="row mb-5 pb-4" style="background:url('/img/div_bgs/abg.jpg');box-shadow:2px 0px 10px;">
       <!-- Job Card Details -->
       <div class="row w-100 p-0 m-0"><!-- FIRST ROW -->
       <div class="col-md-4 py-4 pr-0">
@@ -71,7 +71,7 @@
 
       <div class="row p-0 m-0 w-100"> <!-- SECOND ROW -->
 
-        <div class="col-md-5 ml-auto p-2 mb-2" style="background-color: rgba(237, 237, 237, 0.6); box-shadow: 6px 10px 8px;">
+        <div class="col-md-5 ml-auto p-2 mb-2" style="background-color: rgba(237, 237, 237, 0.6); box-shadow: 2px 3px 8px;">
       <!-- COMPANY INFORMATION --> 
         <div class="col-12">
         <h5 class="fontRoboto"><i class="fas fa-building"></i> Company Information </h5>
@@ -106,7 +106,7 @@
           </ul>
         </div>
     </div>
-    <div class="col-md-5 ml-2 p-2 mb-2 mr-auto" style="background-color: rgba(237, 237, 237, 0.6); box-shadow: 6px 10px 8px;">
+    <div class="col-md-5 ml-2 p-2 mb-2 mr-auto" style="background-color: rgba(237, 237, 237, 0.6); box-shadow: 2px 3px 8px;">
       <!-- JOB INFORMATION -->
         <div class="col-12"> 
           <h5 class="fontRoboto"><i class="fas fa-building"></i> Job Information </h5>
@@ -132,9 +132,9 @@
       <!-- Details END-->
 
 
-    <div class="row mt-3 mb-5"> <!-- Father Row -->
+    <div class="row mt-3 mb-5" style="box-shadow:2px 3px 10px;"> <!-- Father Row -->
 
-      <h4 class="fontRoboto"><i class="fas fa-history"></i> Job Archives/History</h4>
+      <h4 class="fontRoboto m-3"><i class="fas fa-history"></i> Job Archives/History</h4>
       <table class="table">
       <thead class="thead-dark">
         <tr>

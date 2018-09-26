@@ -28,6 +28,15 @@
   <div class="container">
   <!-- Page Content start --> 
 
+  <div class="row mb-3 d-md-none">
+      <div class="col-md-12">
+        <button type="button" class="addJobBtn w-100 p-2"> <i class="fas fa-plus"></i> Add a Job Offer</button>
+      </div>
+      <div class="col-md-12 mt-2">
+        <button type="button" class="addJobBtn w-100 p-2"> <i class="fas fa-plus"></i> Add an Announcement</button>
+      </div>
+  </div>
+
   <div class="row"><!-- Father Row -->
   <div class="col-md-8 mb-5"> <!-- Separator column -->
 
@@ -44,7 +53,7 @@
 
   <!-- Div latest announcement container -->
   <div class="row">
-  <div class="col-12 col-md-12 mt-3 pb-2 rounded-top" style="box-shadow:0 0 5px;">
+  <div class="col-12 col-md-12 mt-3 pb-2 rounded-top postBox bg-light">
     <div class="row">
     <div class="col-2 col-md-1 mt-2">
       <img src="/img/homepage_images/Boy.jpg" class="rounded-circle" width="50px" /> 
@@ -78,7 +87,7 @@
 
   <!-- Div latest job container -->
   <div class="row">
-  <div class="col-md-12 mt-3 pb-2 rounded-top" style="box-shadow:0 0 5px;">
+  <div class="col-md-12 mt-3 pb-2 rounded-top postBox bg-light">
     <div class="row">
     <div class="col-2 col-md-1 mt-2">
       <img src="/img/homepage_images/Girl.jpg" class="rounded-circle" width="50px" /> 
@@ -109,11 +118,11 @@
 
 
   <div class="row mt-5"><!-- Recent Posts Header -->
-    <div class="col-4 col-md-4 py-2 rounded-top" style="background-image: linear-gradient(90deg, #1CBB66, #0A5492)" onmouseover = "this.style.cursor = 'pointer'">
-      <p class="m-auto text-white d-inline"> Recent Announcements </p> <i class="fas fa-arrow-down text-white"></i>
+    <div class="col-6 col-md-4 py-2 rounded-top" style="background-image: linear-gradient(90deg, #1CBB66, #0A5492)" onmouseover = "this.style.cursor = 'pointer'">
+      <p class="m-auto text-white d-inline"> Announcements </p> <i class="fas fa-arrow-down text-white"></i>
     </div>
-    <div class="col-4 col-md-4 ml-2 py-2 rounded-top" style="background-image: linear-gradient(90deg, #0A5492, #1CBB66)" onmouseover = "this.style.cursor = 'pointer'">
-      <p class="m-auto text-white"> Recent Job Posts </p>
+    <div class="col-5 col-md-4 py-2 ml-1 rounded-top" style="background-image: linear-gradient(90deg, #0A5492, #1CBB66)" onmouseover = "this.style.cursor = 'pointer'">
+      <p class="m-auto text-white"> Job Posts </p>
     </div>
   </div>  
   <div class="row">
@@ -123,7 +132,7 @@
 
   <!-- Div Recent Posts container -->
   <div class="row">
-  <div class="col-12 col-md-12 mt-3 pb-2" style="box-shadow:0 0 5px;">
+  <div class="col-12 col-md-12 mt-3 pb-2 postBox bg-light">
     <div class="row">
     <div class="col-2 col-md-1 mt-2">
       <img src="/img/homepage_images/Boy.jpg" class="rounded-circle" width="50px" /> 
@@ -145,7 +154,7 @@
 
   <!-- Div latest job container -->
   <div class="row">
-  <div class="col-12 col-md-12 mt-3 pb-2" style="box-shadow:0 0 5px;">
+  <div class="col-12 col-md-12 mt-3 pb-2 postBox bg-light">
     <div class="row">
     <div class="col-2 col-md-1 mt-2">
       <img src="/img/homepage_images/Girl.jpg" class="rounded-circle" width="50px" /> 
@@ -175,7 +184,7 @@
 
     <!-- Div Recent Posts container -->
   <div class="row">
-  <div class="col-12 col-md-12 mt-3 pb-2" style="box-shadow:0 0 5px;">
+  <div class="col-12 col-md-12 mt-3 pb-2 postBox bg-light">
     <div class="row">
     <div class="col-2 col-md-1 mt-2">
       <img src="/img/homepage_images/Boy.jpg" class="rounded-circle" width="50px" /> 
@@ -201,14 +210,13 @@
 
 
   <div class="col-md-3 ml-auto">
-    <div class="row">
+    <div class="row d-none d-md-block">
       <div class="col-md-12">
         <button type="button" class="addJobBtn w-100 p-2"> <i class="fas fa-plus"></i> Add a Job Offer</button>
       </div>
       <div class="col-md-12 mt-2">
         <button type="button" class="addJobBtn w-100 p-2"> <i class="fas fa-plus"></i> Add an Announcement</button>
       </div>
-
     </div>
 
     <div class="row mt-5">

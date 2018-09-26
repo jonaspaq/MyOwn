@@ -29,19 +29,29 @@
       <hr>
       <ul class="navbar-nav ml-auto mr-1">
         <li class="nav-item dropdown active">
-          <a class="nav-link ownerLink" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="/img/homepage_images/Girl.jpg" class="rounded-circle" width="20px"></i> Jonas Gwapo <i class="fas fa-caret-down"></i> </a>
-          <div class="dropdown-menu dropdown-menu-left" style="left:0" aria-labelledby="dropdown03">
+          <a class="nav-link ownerLink" id="ownerLinkDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="/img/homepage_images/Girl.jpg" class="rounded-circle" width="20px"> Jonas Gwapo <i class="fas fa-caret-down"></i> </a>
+          <div class="dropdown-menu dropdown-menu-left" style="left:0" aria-labelledby="ownerLinkDropdown">
               <a class="dropdown-item" href="/login"><i class="fas fa-cog"></i> Settings </a>
               <a class="dropdown-item" href="/login"><i class="fas fa-bug"></i> Report Bugs </a>
           </div>
         </li>
       </ul>
-      <ul class="navbar-nav" style="border-left:1px solid gray">
-        <li class="nav-item active">
-          <a class="nav-link signOutBtn ml-2" href="/login"><i class="fas fa-walking"></i> Sign Out </a>
+      <ul class="navbar-nav lDivider">
+        <li class="nav-item active p-0 m-0">
+          <a class="nav-link signOutBtn" href="/login">Sign Out <i class="fas fa-walking"></i> </a>
         </li>
       </ul>
       </div>
   </nav> <!-- Top Navigation Bar end -->
 
   
+  <style type="text/css">
+  .lDivider{
+    border-left:1px solid gray;
+  }
+  @media (max-width: 767.98px) { 
+  .lDivider{
+    border-left:0px;
+  }
+   }
+  </style>
