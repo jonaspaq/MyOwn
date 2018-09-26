@@ -28,21 +28,23 @@
   <div class="container">
   <!-- Page Content start --> 
 
+  <div class="row"><!-- Father Row -->
+  <div class="col-md-8 mb-5"> <!-- Separator column -->
 
 
   <div class="row"><!-- School Ann Header -->
-    <div class="col-8 col-md-3 py-2 rounded-top" style="background-image: linear-gradient(#32C275, #1CBB66)">
+    <div class="col-8 col-md-5 py-2 rounded-top" style="background-image: linear-gradient(#32C275, #1CBB66)">
       <p class="m-auto text-white fontRoboto"> Latest School Announcement </p>
     </div>
   </div>  
   <div class="row">
-    <div class="col-md-8" style="border-bottom: 1px solid gray;">
+    <div class="col-md-12" style="border-bottom: 1px solid gray;">
     </div>
   </div>  <!-- School Ann Header END-->
 
   <!-- Div latest announcement container -->
   <div class="row">
-  <div class="col-12 col-md-8 mt-3 pb-2" style="box-shadow:0 0 5px;">
+  <div class="col-12 col-md-12 mt-3 pb-2 rounded-top" style="box-shadow:0 0 5px;">
     <div class="row">
     <div class="col-2 col-md-1 mt-2">
       <img src="/img/homepage_images/Boy.jpg" class="rounded-circle" width="50px" /> 
@@ -65,18 +67,18 @@
 
 
   <div class="row mt-5"><!-- Alumni Job Header -->
-    <div class="col-8 col-md-3 py-2 rounded-top" style="background-image: linear-gradient(#1C72BB, #0A5492)">
+    <div class="col-8 col-md-5 py-2 rounded-top" style="background-image: linear-gradient(#1C72BB, #0A5492)">
       <p class="m-auto text-white fontRoboto"> Latest Alumni Job Post </p>
     </div>
   </div>  
   <div class="row">
-    <div class="col-md-8" style="border-bottom: 1px solid gray;">
+    <div class="col-md-12" style="border-bottom: 1px solid gray;">
     </div>
   </div>  <!-- Alumni Job Header END-->
 
   <!-- Div latest job container -->
   <div class="row">
-  <div class="col-12 col-md-8 mt-3 pb-2" style="box-shadow:0 0 5px;">
+  <div class="col-md-12 mt-3 pb-2 rounded-top" style="box-shadow:0 0 5px;">
     <div class="row">
     <div class="col-2 col-md-1 mt-2">
       <img src="/img/homepage_images/Girl.jpg" class="rounded-circle" width="50px" /> 
@@ -107,18 +109,18 @@
 
 
   <div class="row mt-5"><!-- Recent Posts Header -->
-    <div class="col-8 col-md-3 py-2 rounded-top" style="background-image: linear-gradient(90deg, #1CBB66, #0A5492)">
+    <div class="col-8 col-md-5 py-2 rounded-top" style="background-image: linear-gradient(90deg, #1CBB66, #0A5492)">
       <p class="m-auto text-white fontRoboto"> Recent Posts </p>
     </div>
   </div>  
   <div class="row">
-    <div class="col-md-8" style="border-bottom: 1px solid gray;">
+    <div class="col-md-12" style="border-bottom: 1px solid gray;">
     </div>
   </div>  <!-- Recent Posts Header END-->
 
   <!-- Div Recent Posts container -->
   <div class="row">
-  <div class="col-12 col-md-8 mt-3 pb-2" style="box-shadow:0 0 5px;">
+  <div class="col-12 col-md-12 mt-3 pb-2" style="box-shadow:0 0 5px;">
     <div class="row">
     <div class="col-2 col-md-1 mt-2">
       <img src="/img/homepage_images/Boy.jpg" class="rounded-circle" width="50px" /> 
@@ -140,7 +142,7 @@
 
   <!-- Div latest job container -->
   <div class="row">
-  <div class="col-12 col-md-8 mt-3 pb-2" style="box-shadow:0 0 5px;">
+  <div class="col-12 col-md-12 mt-3 pb-2" style="box-shadow:0 0 5px;">
     <div class="row">
     <div class="col-2 col-md-1 mt-2">
       <img src="/img/homepage_images/Girl.jpg" class="rounded-circle" width="50px" /> 
@@ -169,8 +171,8 @@
   </div><!-- Div latest job container end -->
 
     <!-- Div Recent Posts container -->
-  <div class="row mb-5">
-  <div class="col-12 col-md-8 mt-3 pb-2" style="box-shadow:0 0 5px;">
+  <div class="row">
+  <div class="col-12 col-md-12 mt-3 pb-2" style="box-shadow:0 0 5px;">
     <div class="row">
     <div class="col-2 col-md-1 mt-2">
       <img src="/img/homepage_images/Boy.jpg" class="rounded-circle" width="50px" /> 
@@ -191,7 +193,43 @@
   </div><!-- Div Recent Posts container end -->
 
 
+  <center> <p class="fontRoboto text-muted mt-5"> You have seen all the recent posts! </p></center>
+  </div><!-- Separator Column END -->
 
+
+  <div class="col-md-3 ml-auto">
+    <div class="row">
+      <div class="col-md-12">
+        <button type="button" class="addJobBtn w-100 p-2"> <i class="fas fa-plus"></i> Add a Job Offer</button>
+      </div>
+      <div class="col-md-12 mt-2">
+        <button type="button" class="addJobBtn w-100 p-2"> <i class="fas fa-plus"></i> Add an Announcement</button>
+      </div>
+
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-12">
+      <p> Featured Video</p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-12">
+        <video width="100%" controls>
+        <source src="/vid/vid1.mp4.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+       </video>
+       <p> University of San Carlos Tour - LRC & Stadium </p>
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+  </div><!-- Father row END -->
 
 
   <!-- Page Content END --> 

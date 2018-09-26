@@ -82,6 +82,24 @@
   background-size: cover;
 }  
 
+.addJobBtn, .addJobBtn:focus{
+  background: url(/img/div_bgs/divbg.jpg);
+  background-size: cover; 
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+
+  border:1.5px solid gray;
+  border-top-right-radius:50px; 
+  border-bottom-right-radius:50px;
+  border-top-left-radius:50px; 
+  border-bottom-left-radius:50px;
+}
+
+
+
 /* 
   MEDIA QUERIES 
 */
