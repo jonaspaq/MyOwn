@@ -12,7 +12,7 @@ class Industry extends Model
         'service'
     ];
 
-    public function company(')
+    public function company()
     {
     	return $this->hasOne('App\Company','company_id');
     }
